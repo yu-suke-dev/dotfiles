@@ -1,0 +1,8 @@
+{
+    "eslint.autoFixOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "Cica",
+    "editor.fontSize": 16,
+    "launch": {}
+  }

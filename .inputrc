@@ -1,0 +1,4 @@
+# ignore large or small like 'A' or 'a'
+$if Bash
+set completion-ignore-case on
+$endif
