@@ -28,6 +28,9 @@ alias dc='docker-compose'
 # aws
 complete -C aws_completer aws
 
+# terraform
+alias tf=terraform
+
 # bash completion
 source /usr/local/etc/bash_completion
 
