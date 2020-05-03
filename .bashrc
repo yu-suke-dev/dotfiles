@@ -25,11 +25,11 @@ alias dia="docker images --all"
 # docker-compose
 alias dc='docker-compose'
 
-# aws
-complete -C aws_completer aws
-
 # terraform
 alias tf=terraform
+
+# aws
+complete -C aws_completer aws
 
 # bash completion
 source /usr/local/etc/bash_completion
