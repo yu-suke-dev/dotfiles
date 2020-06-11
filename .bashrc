@@ -25,6 +25,9 @@ alias dia="docker images --all"
 # docker-compose
 alias dc='docker-compose'
 
+# terraform
+alias tf=terraform
+
 # aws
 complete -C aws_completer aws
 
