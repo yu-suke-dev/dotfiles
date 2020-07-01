@@ -3,17 +3,22 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 brew "awscli"
+brew "bash"
 brew "bash-completion"
 brew "colordiff"
 brew "gatsby-cli"
 brew "git"
+brew "gnu-sed"
 brew "gnupg"
+brew "hugo"
 brew "jq"
 brew "mas"
+brew "nodenv"
 brew "rbenv"
 brew "terraform", link: false
 brew "tfenv"
 brew "tflint"
+brew "tmux"
 brew "tree"
 brew "wget"
 brew "yarn"
@@ -22,6 +27,7 @@ cask "font-cica"
 cask "google-cloud-sdk"
 mas "1Password 7", id: 1333542190
 mas "Bear", id: 1091189122
+mas "iMovie", id: 408981434
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Logic Pro X", id: 634148309
