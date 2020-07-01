@@ -1,6 +1,6 @@
 # ignore large or small like 'A' or 'a'
 $if Bash
-set completion-ignore-case on
 set colored-stats on
+set completion-ignore-case on
 set mark-symlinked-directories on
 $endif
