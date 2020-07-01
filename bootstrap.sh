@@ -41,4 +41,7 @@ if grep -q $bash_path /etc/shells; then
   chsh -s $bash_path
 fi
 
+# iterm2 settings
+ln -sf "$DOTPATH/iterm2/com.googlecode.iterm2.plist" "$HOME/Library/Prefences/com.googlecode.iterm2.plist"
+
 echo "Bootstrapping DONE"
