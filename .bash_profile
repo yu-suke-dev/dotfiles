@@ -7,7 +7,16 @@ export HISTTIMEFORMAT='%y-%m-%d %H:%M:%S '
 export HISTFILESIZE=10000
 export HOMEBREW_BUNDLE_NO_LOCK=true
 
-# source setting file
+# nodenv settings
+eval "$(nodenv init -)"
+
+# source settings
 for file in .{bashrc,inputrc}; do
   [[ -r "$file" ]] && [[ -f "$file" ]] && . "$file"
 done
+
+# java settings
+export SDKMAN_DIR="$HOME/.sdkman"
+if [ -d "${SDKMAN_DIR}" ]; then
+  [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+fi
