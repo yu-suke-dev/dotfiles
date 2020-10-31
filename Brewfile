@@ -1,6 +1,7 @@
 tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "awscli"
 brew "bash"
@@ -23,8 +24,10 @@ brew "tree"
 brew "wget"
 brew "yarn"
 brew "dart-lang/dart/dart"
-cask "font-cica"
+cask "font-hackgen"
 cask "google-cloud-sdk"
+cask "iterm2"
+cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "Bear", id: 1091189122
 mas "iMovie", id: 408981434
